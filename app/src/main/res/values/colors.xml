@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_orange">#E66E48</color>
+    <color name="app_orange_disabled">#D1937F</color>
+    <color name="app_orange_darken">#EC6439</color>
+    <!--[LIGHT THEME COLORS]-->
+    <color name="textColor">#212121</color>
+    <color name="buttonTextColor">@color/white</color>
+    <color name="backgroundColor">#F8FAF7</color><!--[ #F3F3F3 ]-->
+    <color name="statusBarColor">@color/backgroundColor</color><!--[ SAME AS BACKGROUND ]-->
+    <color name="navigationBarColor">@color/backgroundColor</color>
+    <color name="edittextbg">#ECECEC</color>
+    <color name="borderColor">#212121</color>
+    <color name="cardColor">#E1E1E1</color>
+    <color name="linkColor">#03A9F4</color>
+</resources>

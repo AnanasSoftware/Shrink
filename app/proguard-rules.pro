@@ -1,0 +1,3 @@
+-dontnote okhttp3.**, okio.**, retrofit2.**
+-dontwarn retrofit2.**
+-keep class retrofit2.** { *; }

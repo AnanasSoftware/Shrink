@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/noLinksYet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/no_links_yet"
+        android:textSize="22sp"
+        android:fontFamily="@font/ubuntu_b"
+        />
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        style="@style/Theme.Shrink.cardView"
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/borderColor">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:orientation="vertical">
+            
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/long_link"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:hint="@string/long_link"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/ubuntu_r"
+                android:drawableLeft="@drawable/ic_baseline_link_24"
+                android:background="@drawable/drawable_edittext"
+                android:singleLine="true"/>
+            
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnShrink"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/shrink"
+                android:textSize="17sp"
+                android:fontFamily="@font/ubuntu_m"
+                android:textStyle="bold"
+                android:textColor="@color/buttonTextColor"
+                android:textAllCaps="false"
+                app:strokeColor="@color/borderColor"
+                app:strokeWidth="2dp"
+                app:cornerRadius="10dp"/>
+            
+        </LinearLayout>
+        
+    </com.google.android.material.card.MaterialCardView>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginBottom="153dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/shorted_links"
+                android:fontFamily="@font/ubuntu_b"
+                android:textSize="25sp"/>
+            
+            <ImageButton
+                android:id="@+id/btnAbout"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_info_24"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/textColor"/>
+        
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:overScrollMode="never">
+            
+            <LinearLayout
+                android:id="@+id/scrollViewContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+            
+        </ScrollView>
+        
+    </LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Shrink</string>
+    <string name="about">About</string>
+    <string name="facebook">https://v.ht/ananasFacebook</string>
+    <string name="app_about"><![CDATA[Free & Open-source url shortener]]></string>
+    <string name="app_version">Version: %s</string>
+    <string name="no_links_yet">You\'ve no links yet 😅</string>
+    <string name="long_link">Long link</string>
+    <string name="shrink">Shrink !</string>
+    <string name="shorted_links">Shorted links.</string>
+    <string name="ok">Ok</string>
+    <string name="delete">Delete</string>
+    <string name="check_internet_connection">Check your network connection !</string>
+    <string name="add_real_link">Please add a real link !</string>
+    <string name="add_link_bellow">Please add a link bellow</string>
+    <string name="may_no_connection">You may have no internet connection !</string>
+    <string name="server_error">Error while connection to server !</string>
+    <string name="link_shortened">Your link shortened successfully.</string>
+    <string name="date_format">yyyy/MM/dd</string>
+    <string name="link_deleted">Link deleted.</string>
+    <string name="please_wait">Please wait...</string>
+</resources>

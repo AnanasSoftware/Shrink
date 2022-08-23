@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColor">#D8D8D8</color>
+    <color name="buttonTextColor">@color/white</color>
+    <color name="backgroundColor">#2E2E2E</color><!--[ SAME AS STATUSBAR ]-->
+    <color name="statusBarColor">@color/backgroundColor</color><!--[ SAME AS BACKGROUND ]-->
+    <color name="navigationBarColor">@color/backgroundColor</color><!--[#E66E48]-->
+    <color name="edittextbg">#454545</color> <!-- 343734 -->
+    <color name="borderColor">#000000</color>
+    <color name="cardColor">#3C3C3C</color>
+    <color name="linkColor">#8FD2F1</color>
+</resources>
