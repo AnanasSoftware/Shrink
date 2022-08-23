@@ -2,6 +2,8 @@
 Open-source Url shortener for android.
 The application is developed to match the "premium url shortener" api, but it can be changed to whatever.
 
+> This application has been programmed for the [@PHP_ABA](https://t.me/PHP_ABA) telegram channel
+
 # Build
 - Create/Edit `local.properties` in the main folder then add `base_url=[URL_SHORTENER_WEBSITE_LOCATION]` and `api_key=[URL_SHORTENER_WEBSITE_APIKEY]`
 > BTW, you can add these details directly to the source code in `MainActivity.java` !
